@@ -40,10 +40,10 @@ Grain spoilage in storage silos causes major economic losses and food waste. By 
 
 - **Language**: Python 3.x
 - **Libraries**:
-  - TensorFlow / Keras
-  - Scikit-learn
-  - Pandas, NumPy, Matplotlib
-  - Metaheuristic algorithms via `optuna`, `pyswarms`, or custom implementations
+    - TensorFlow / Keras
+    - Scikit-learn
+    - Pandas, NumPy, Matplotlib
+    - Metaheuristic algorithms via `optuna`, `pyswarms`, or custom implementations
 - **Notebook**: Jupyter Notebook (.ipynb)
 - **Data Source**: Simulated or real-time IoT grain silo data
 
@@ -108,28 +108,23 @@ Tuned parameters include:
 
 ## ⚙️ Installation
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/grain-spoilage-lstm.git
-   cd grain-spoilage-lstm
-2. Create virtual environment & install dependencies:
-
-  ```bash
-
-   pip install -r requirements.txt
-
----
+```bash
+git clone https://github.com/your-username/grain-spoilage-lstm.git
+cd grain-spoilage-lstm
+pip install -r requirements.txt
+```
 
 ## 🚀 Usage
-Open the Jupyter notebook and run all cells:
 
-  ```bash
-     jupyter notebook data.ipynb
+```bash
+jupyter notebook data.ipynb
+```
+
 Make sure your dataset (data.csv or similar) is placed in the project directory.
 
 ---
 
-##  🔭 Future Work
+## 🔭 Future Work
 
 Integration with real-time IoT devices
 
